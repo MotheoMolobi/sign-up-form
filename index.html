@@ -8,14 +8,58 @@
 </head>
 <body>
     <div class="container">
-        <div class="rightSide">
-            <img src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="image of grass" id="background-img">
-            <p>Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halle West</a></p>
+        <div class="left">
+            <div class="banner">
+                <img src="./images/odin-lined-image.png" alt="odin logo" id="odin-logo">
+                <div class="odin-div">
+                    <p id="odin-text">ODIN</p>
+                </div>
+            </div>
+            <p id="footer-text">Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank" id="image-link">
+                Halle West</a> on <a href="https://unsplash.com/" target="_blank" id="image-link">Unsplash</a></p>
         </div>
-        <div class="leftSide">
+        <div class="right">
+            <div class="first">
+                <p class="para">This is not a real online service! You know you need something
+                    <br>like this in your life to help you realize your deepest dreams.
+                    <br>Sign up <em>now</em> to get started.
+                    <br><br>
+                    You <em>know</em> you want to.
+                </p>
+            </div>
 
-            <h1>left side</h1>
+            <div class="second">
+                <p class="para">Let's do this!</p>
+                <div class="form-div">
+                    <form class="left-form">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" id="firstname" required>
+    
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" required>
+    
+                        <label for="password">PASSWORD</label>
+                        <input type="password" minlength="8" required>
+                    </form>
+    
+                    <form class="right-form">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" id="lastname" required>
+    
+                        <label for="tel">PHONE NUMBER</label>
+                        <input type="tel" id="tel" required>
+    
+                        <label for="re-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="re-password" minlength="8" required>
+                    </form>
+                </div>
+            </div>
 
+            <div class="third">
+                <button id="create-btn">Create Account</button>
+                <p id="login-text">Already have an account? <a href="" id="login-link">Login in</a></p>
+
+            </div>
         </div>
     </div>
 
